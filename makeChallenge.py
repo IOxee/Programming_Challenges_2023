@@ -11,11 +11,11 @@ def create_challenge_folder():
     folder_name = f"challenge-{num}"
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
+        challenge_name = input("Ingresa el nombre del reto: ")
         with open(os.path.join(folder_name, "solution.py"), 'w') as file:
-            file.write("# Path: solution.py\n# Author: IOxee\n# TimeStamp: " + str(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S")) + "\n\n")
+            file.write(f"# Name: {challenge_name} \n# Path: solution.py\n# Author: IOxee\n# TimeStamp: " + str(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S")) + "\n\n")
             pass
         
-        challenge_name = input("Ingresa el nombre del reto: ")
         with open(os.path.join(folder_name, "description.md"), 'w') as file:
             file.write(f"<center><h1>{challenge_name}</h1></center>")
             pass
