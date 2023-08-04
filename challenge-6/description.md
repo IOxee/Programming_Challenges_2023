@@ -1,0 +1,1 @@
+<center><h1>PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK</h1></center>
