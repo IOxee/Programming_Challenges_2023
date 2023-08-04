@@ -11,13 +11,13 @@ The repository follows an organized folder structure for challenges. Below is a 
 ./
 ├── challenge-1
 │ ├── solution.py
-│ └── description.md
+│ └── readme.md
 ├── challenge-2
 │ ├── solution.py
-│ └── description.md
+│ └── readme.md
 ├── challenge-3
 │ ├── solution.py
-│ └── description.md
+│ └── readme.md
 └── ...
 ```
 

@@ -16,7 +16,7 @@ def create_challenge_folder():
             file.write(f"# Name: {challenge_name} \n# Path: solution.py\n# Author: IOxee\n# TimeStamp: " + str(datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S")) + "\n\n")
             pass
         
-        with open(os.path.join(folder_name, "description.md"), 'w') as file:
+        with open(os.path.join(folder_name, "readme.md"), 'w') as file:
             file.write(f"<center><h1>{challenge_name}</h1></center>")
             pass
         
