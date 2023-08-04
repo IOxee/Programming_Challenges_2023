@@ -7,7 +7,7 @@ Additionally, for each challenge, I've included a brief problem description and 
 
 ## Repository Structure
 The repository follows an organized folder structure for challenges. Below is a description of the structure:
-
+```
 ./
 ├── challenge-1
 │ ├── solution.py
@@ -19,6 +19,7 @@ The repository follows an organized folder structure for challenges. Below is a 
 │ ├── solution.py
 │ └── description.md
 └── ...
+```
 
 
 ## Contributions
