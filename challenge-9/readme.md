@@ -12,8 +12,6 @@
 ####  HETEROGRAMA = Yuxtaponer, Centrifugado, Luteranismo
 ####  ISOGRAMA = Acondicionar, Escritura, Intestinos
 
-// put image here in middle
-
 <center>
     <img src="info.png">
 </center>
